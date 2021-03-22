@@ -6,38 +6,12 @@ html {
   padding: 0;
   box-sizing: border-box;
   background-color: $white;
+  font-family: $primaryFontStack;
 }
 
 .app{
   max-width: 1440px;
   margin: 0 auto;
-}
-
-.catchThatEye{
   display: grid;
-  grid-template: 1fr / auto;
-  height: 85vh;
-
-  &__backgroundImageOverlayOne,
-  &__backgroundImageOverlayTwo{
-    grid-area: 1/1/-1/-1;
-    height: 80vh;
-    width: 100%;
-  }
-
-  &__backgroundImageOverlayOne{
-    background: linear-gradient(60deg, black, rgba(0,25,88,0.1));
-  }
-
-  &__backgroundImageOverlayTwo{
-    background: linear-gradient(to right, black, rgba(0,25,88,0.2), rgba(0,25,88,0.1) 99%);
-  }
-
-  &__backgroundImage{
-    grid-area: 1/1/-1/-1;
-    object-fit: cover;
-    padding: 0;
-    height: 80vh;
-    width: 100%;
-  }
+  height: 100vh;
 }

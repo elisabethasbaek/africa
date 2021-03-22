@@ -1,0 +1,13 @@
+@import "./src/Variables.scss";
+
+.heading{
+    color: $white;
+    font-size: $headingFontSize;
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
+
+    span{
+        text-transform: uppercase;
+    }
+}

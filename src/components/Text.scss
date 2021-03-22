@@ -1,0 +1,9 @@
+@import "./src/Variables.scss";
+
+.text{
+    font-size: $textFontSize;
+    color: $white;
+    line-height: 150%;
+    padding: 0;
+    margin: 0.7rem 0;
+}

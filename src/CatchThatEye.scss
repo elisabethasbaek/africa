@@ -1,0 +1,55 @@
+.catchThatEye{
+    display: grid;
+    grid-template: 1fr 80% / 3fr 1fr 2fr;
+    height: 80vh;
+    margin: 0;
+
+    .background{
+        grid-area: 1/1/-1/-1;
+        height: 80vh;
+        width: 100%;
+    }
+
+    >.button{
+        grid-area: 1/3/2/4;
+        justify-self: end;
+        margin-top: 2vw;
+        margin-right: 3vw;
+    }
+
+    &__left{
+        grid-area: 2/1/3/2;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1.1fr 2fr;
+        font-weight: bold;
+
+        img{
+            justify-self: end;
+            padding-top: 0.3rem;
+            padding-right: 10%;
+        }
+
+        >div{
+            margin-left: 1rem;
+
+            .heading{
+                justify-self: end; 
+                margin-bottom: 1.8rem;
+            }
+
+            .text:last-of-type{
+                max-width: 80%;
+            }
+
+            >div{
+                margin-top: 3rem;
+
+                .text{
+                    font-weight: 300;
+                }
+            }
+        } 
+    }
+
+  }

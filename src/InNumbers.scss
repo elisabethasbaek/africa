@@ -1,0 +1,12 @@
+@import "./Variables.scss";
+
+.inNumbers{
+    display: grid;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+
+    .heading{
+        color: $darkBlue;
+    }
+}
