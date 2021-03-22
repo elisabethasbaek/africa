@@ -8,5 +8,13 @@
 
     .heading{
         color: $darkBlue;
+        margin: 2rem;
+    }
+
+    &__boxes{
+        display: flex;
+        justify-content: space-around;
+        width: 75%;
+        padding-bottom: 3rem;
     }
 }

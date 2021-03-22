@@ -1,1 +1,20 @@
 @import "./src/Variables.scss";
+
+.numberBox{
+    text-align: center;
+    padding: 0 1rem;
+
+    &__text{
+        color: $darkGrey;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__number{
+        color: $lightGrey;
+        font-weight: bold;
+        font-size: $headingFontSize;
+        margin: 0;
+        padding: 0;
+    }
+}
