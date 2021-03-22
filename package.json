@@ -19,7 +19,7 @@
     "build": "react-scripts build && cp _redirects build/_redirects",
     "test": "cross-env CI=true react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write .",
+    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
