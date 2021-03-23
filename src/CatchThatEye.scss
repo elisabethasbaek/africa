@@ -82,10 +82,11 @@
 
 @media screen and (max-width: 850px){
     .catchThatEye{
-        grid-template: 10% 1fr / 1fr 20%;
+        grid-template: 10% auto / 1fr 20%;
 
         &__left{
             grid-area: 2/1/3/2;
+            grid-template-rows: 1fr;
 
             >div{
                 .text:last-of-type{
