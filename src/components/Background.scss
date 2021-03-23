@@ -1,38 +1,35 @@
+.background {
+	display: grid;
+	grid-template: 1fr / auto;
 
-.background{
-    display: grid;
-    grid-template: 1fr / auto;
-    
-    &__overlayOne,
-    &__overlayTwo,
-    &__image{
-        grid-area: 1/1/-1/-1;
-        height: 80vh;
-        width: 100%;
-    }
-    
-    &__overlayOne{
-        background: linear-gradient(60deg, black, rgba(0,25,88,0.1));
-    }
-    
-    &__overlayTwo{
-        background: linear-gradient(to right, black, rgba(0,25,88,0.2), rgba(0,25,88,0.1) 99%);
-    }
-    
-    &__image{
-        object-fit: cover;
-        padding: 0;
-    }
+	&__overlayOne,
+	&__overlayTwo,
+	&__image {
+		grid-area: 1/1/-1/-1;
+		height: 80vh;
+		width: 100%;
+	}
+
+	&__overlayOne {
+		background: linear-gradient(60deg, black, rgba(0, 25, 88, 0.1));
+	}
+
+	&__overlayTwo {
+		background: linear-gradient(to right, black, rgba(0, 25, 88, 0.2), rgba(0, 25, 88, 0.1) 99%);
+	}
+
+	&__image {
+		object-fit: cover;
+		padding: 0;
+	}
 }
 
-@media screen and (max-width: 615px){
-    .background{
-        &__overlayOne,
-        &__overlayTwo,
-        &__image{
-            height: 110vh;
-        }
-    }
+@media screen and (max-width: 615px) {
+	.background {
+		&__overlayOne,
+		&__overlayTwo,
+		&__image {
+			height: 110vh;
+		}
+	}
 }
-
-

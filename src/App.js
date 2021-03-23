@@ -4,12 +4,12 @@ import CatchThatEye from "./CatchThatEye";
 import InNumbers from "./InNumbers";
 
 export default function App() {
-  return (
-    <div className="app">
-      <>
-        <CatchThatEye />
-        <InNumbers />
-      </>
-    </div>
-  );
+	return (
+		<div className="app">
+			<>
+				<CatchThatEye />
+				<InNumbers />
+			</>
+		</div>
+	);
 }

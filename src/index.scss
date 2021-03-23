@@ -2,26 +2,26 @@
 
 body,
 html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(233, 231, 231);
-  font-family: $primaryFontStack;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(233, 231, 231);
+	font-family: $primaryFontStack;
 }
 
-.app{
-  max-width: 1440px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: auto auto;
-  box-shadow: 5px 5px 20px rgba(0,25,88,0.2);
-  background-color: $white;
+.app {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: auto auto;
+	box-shadow: 5px 5px 20px rgba(0, 25, 88, 0.2);
+	background-color: $white;
 
-  .catchThatEye{
-    grid-area: 1/1/2/2;
-  }
+	.catchThatEye {
+		grid-area: 1/1/2/2;
+	}
 
-  .inNumbers{
-    grid-area: 2/1/3/2;
-  }
+	.inNumbers {
+		grid-area: 2/1/3/2;
+	}
 }
