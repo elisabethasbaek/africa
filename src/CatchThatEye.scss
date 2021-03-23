@@ -111,17 +111,19 @@
 @media screen and (max-width: 615px){
     .catchThatEye{
         height: 110vh;
-        
+
         &__left{
-            grid-template-rows: repeat(5, auto);
+            grid-template-rows: 18% repeat(4, auto);
             grid-template-columns: auto;
 
             img{
                 justify-self: start;
-                margin-left: 3rem;
-                margin-bottom: 1.1rem;
+                align-self: end;
+                margin-left: 2.5rem;
+                padding-bottom: 0.5rem;
                 padding-top: 0;
                 padding-right: 0;
+                transform: scale(0.8);
             }
 
             >div{
