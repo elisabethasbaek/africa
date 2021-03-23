@@ -5,7 +5,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $white;
+  background-color: rgb(233, 231, 231);
   font-family: $primaryFontStack;
 }
 
@@ -13,5 +13,7 @@ html {
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
-  min-height: 100vh;
+  -min-height: 100vh;
+  box-shadow: 5px 5px 20px rgba(0,25,88,0.2);
+  background-color: $white;
 }
